@@ -212,6 +212,6 @@ ___
   4. [Masked Feature Generation Network for Few-Shot Learning](https://www.ijcai.org/proceedings/2022/0513.pdf)
 ### Masking Strategy, Model Architecture, Downstream Task and Objective Function <a name="19"></a>
   1. [MAViL: Masked Audio-Video Learners](https://proceedings.neurips.cc/paper_files/paper/2023/file/40b60852a4abdaa696b5a1a78da34635-Paper-Conference.pdf)
-  2. [Improved masked image generation with token-critic]https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136830070.pdf()
+  2. [Improved masked image generation with token-critic](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136830070.pdf)
   3. [Self-Distilled Masked Auto-Encoders are Efficient Video Anomaly Detectors](https://openaccess.thecvf.com/content/CVPR2024/papers/Ristea_Self-Distilled_Masked_Auto-Encoders_are_Efficient_Video_Anomaly_Detectors_CVPR_2024_paper.pdf)
   4. [Audiovisual masked autoencoders](https://openaccess.thecvf.com/content/ICCV2023/papers/Georgescu_Audiovisual_Masked_Autoencoders_ICCV_2023_paper.pdf)
