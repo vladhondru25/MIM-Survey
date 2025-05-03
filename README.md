@@ -26,7 +26,8 @@ ___
 #### Multi-Level Contribution
 17. [Masking Strategy, Model Architecture and Objective Function](#17)
 18. [Masking Strategy, Target Features and Objective Function](#18)
-19. [Masking Strategy, Model Architecture, Downstream Task and Objective Function](#19)
+19. [Downstream Task, Objective Function and Model Architecture](#19)
+20. [Masking Strategy, Model Architecture, Downstream Task and Objective Function](#20)
 
 ## Content
 
@@ -188,6 +189,7 @@ ___
   [Link to code](https://github.com/zdaxie/MIM-DarkSecrets)
   8. [Improving Adversarial Robustness of Masked Autoencoders via Test-time Frequency-domain Prompting](https://openaccess.thecvf.com/content/ICCV2023/papers/Huang_Improving_Adversarial_Robustness_of_Masked_Autoencoders_via_Test-time_Frequency-domain_Prompting_ICCV_2023_paper.pdf) \
   [Link to code](https://github.com/shikiw/RobustMAE)
+  9. [From Prototypes to General Distributions: An Efficient Curriculum for Masked Image Modeling](https://arxiv.org/pdf/2411.10685)
 ### Target Features and Objective Function <a name="7"></a>
   1. [Self-supervised visual representations learning by contrastive mask prediction](https://openaccess.thecvf.com/content/ICCV2021/papers/Zhao_Self-Supervised_Visual_Representations_Learning_by_Contrastive_Mask_Prediction_ICCV_2021_paper.pdf)
   2. [Masked contrastive representation learning for reinforcement learning](https://arxiv.org/pdf/2010.07470) \
@@ -205,6 +207,12 @@ ___
   [Link to code](https://github.com/WkEEn/PAMA)
   9. [Masked image modeling with local multi-scale reconstruction](https://openaccess.thecvf.com/content/CVPR2023/papers/Wang_Masked_Image_Modeling_With_Local_Multi-Scale_Reconstruction_CVPR_2023_paper.pdf) \
   [Link to code](https://github.com/huawei-noah/Efficient-Computing/tree/master/Self-supervised/LocalMIM)
+  10. [BEiT: BERT Pre-Training of Image Transformers](https://openreview.net/pdf?id=p-BhZSz59o4) \
+  [Link to code](https://github.com/microsoft/unilm)
+  11. [iBOT: Image BERT Pre-Training with Online Tokenizer](https://openreview.net/pdf?id=ydopy-e6Dg) \
+  [Link to code](https://github.com/bytedance/ibot)
+  12. [mc-BEiT: Multi-choice Discretization for Image BERT Pre-training](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136900229.pdf) \
+  [Link to code](https://github.com/lixiaotong97/mc-BEiT)
 ### Model Architecture and Objective Function <a name="8"></a>
   1. [SupMAE: Supervised Masked Autoencoders Are Efficient Vision Learners](https://arxiv.org/pdf/2205.14540) \
   [Link to code](https://github.com/enyac-group/supmae)
@@ -238,9 +246,13 @@ ___
   [Link to code](https://github.com/HL-hanlin/SMKD)
   10. [SMILE: Infusing Spatial and Motion Semantics in Masked Video Learning](https://arxiv.org/pdf/2504.00527) \ 
   [Link to code](https://github.com/fmthoker/SMILE)
+  11. [Bootstrap Your Own Views: Masked Ego-Exo Modeling for Fine-grained View-invariant Video Representations](https://arxiv.org/pdf/2503.19706) \ 
+  [Link to code](https://github.com/park-jungin/byov)
 ### Objective Function and Theoretical Analysis <a name="10"></a>
   1. [How Mask Matters: Towards Theoretical Understandings of Masked Autoencoders](https://papers.neurips.cc/paper_files/paper/2022/file/adb2075b6dd31cb18dfa727240d2887e-Paper-Conference.pdf) \
   [Link to code](https://github.com/zhangq327/U-MAE)
+  2. [MAP: Unleashing Hybrid Mamba-Transformer Vision Backbone’s Potential with Masked Autoregressive Pretraining](https://arxiv.org/pdf/2410.00871) \
+  [Link to code](https://github.com/yunzeliu/MAP)
 ###  Downstream Task and Theoretical Analysis <a name="11"></a>
   1. [MaskSketch: Unpaired Structure-guided Masked Image Generation](https://openaccess.thecvf.com/content/CVPR2023/papers/Bashkirova_MaskSketch_Unpaired_Structure-Guided_Masked_Image_Generation_CVPR_2023_paper.pdf) \
   [Link to code](https://github.com/google-research/masksketch)
@@ -350,7 +362,12 @@ ___
   3. [Architecture-Agnostic Masked Image Modeling--From ViT back to CNN](https://proceedings.mlr.press/v202/li23af/li23af.pdf) \
   [Link to code](https://github.com/Westlake-AI/A2MIM)
   4. [Masked Feature Generation Network for Few-Shot Learning](https://www.ijcai.org/proceedings/2022/0513.pdf)
-### Masking Strategy, Model Architecture, Downstream Task and Objective Function <a name="19"></a>
+  5. [A Two-Stage Progressive Pre-training using Multi-Modal Contrastive Masked Autoencoders](https://arxiv.org/pdf/2408.02245)
+  6. [Multi-Scale Neighborhood Occupancy Masked Autoencoder for Self-Supervised Learning in LiDAR Point Clouds](https://arxiv.org/pdf/2502.20316)
+### Downstream Task, Objective Function and Model Architecture <a name="19"></a>
+  1. [Linguistics-aware Masked Image Modeling for Self-supervised Scene Text Recognition](https://arxiv.org/pdf/2503.18746) \
+  [Link to code](https://github.com/zhangyifei01/LMIM)
+### Masking Strategy, Model Architecture, Downstream Task and Objective Function <a name="20"></a>
   1. [MAViL: Masked Audio-Video Learners](https://proceedings.neurips.cc/paper_files/paper/2023/file/40b60852a4abdaa696b5a1a78da34635-Paper-Conference.pdf) \
   [Link to code](https://github.com/facebookresearch/MAViL)
   2. [Improved masked image generation with token-critic](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136830070.pdf)
@@ -358,3 +375,8 @@ ___
   [Link to code](https://github.com/ristea/aed-mae)
   4. [Audiovisual masked autoencoders](https://openaccess.thecvf.com/content/ICCV2023/papers/Georgescu_Audiovisual_Masked_Autoencoders_ICCV_2023_paper.pdf) \
   [Link to code](https://github.com/google-research/scenic/tree/main/scenic/projects/av_mae)
+  5. [AVF-MAE++: Scaling Affective Video Facial Masked Autoencoders via Efficient Audio-Visual Self-Supervised Learning](https://zjzac.github.io/publications/pdf/cvpr25-wxc.pdf)
+  6. [Masked Point-Entity Contrast for Open-Vocabulary 3D Scene Understanding](https://arxiv.org/pdf/2504.19500) \
+  [Link to project](https://mpec-3d.github.io/)
+  7. [Masked Scene Modeling: Narrowing the Gap Between Supervised and Self-Supervised Learning in 3D Scene Understanding](https://arxiv.org/pdf/2504.06719) \
+  [Link to code](https://github.com/phermosilla/msm)
